@@ -26,7 +26,7 @@ match ($act) {
     'dichvu' => (new HomeController())->dichvu(),
     'chitietphong' => (new HomeController())->chiTietPhong(),
     'themgiohang' => (new HomeController())->themGioHang(),
-    // 'giohang' => (new HomeController()) -> gioHang(),
+    'giohang' => (new HomeController()) -> gioHang(),
     'dangky' => (new HomeController())->dangKy(),
     'dangnhap' => (new HomeController())->formLogin(),
     'checklogin' => (new HomeController())->postLogin(),
@@ -35,5 +35,5 @@ match ($act) {
     // 'binhluan' => (new HomeController()) -> binhLuan(),
     'lienhe' => (new homeController())->lienhe(),
     'gioithieu' => (new HomeController())->gioithieu(),
-    // 'binhluan' => (new HomeController()) -> binhLuan()
+    /
 };
